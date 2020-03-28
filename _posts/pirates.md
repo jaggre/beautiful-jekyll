@@ -3,4 +3,37 @@ layout: post
 title: Pirates arrrr
 ---
 
-Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the perpetrator (e.g. one passenger stealing from others on the same vessel). The term has been used throughout history to refer to raids across land borders by non-state agents.
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    {% if post.image %}
+      <div class="post-image">
+        <a href="{{ post.url | relative_url }}">
+          <img src="{{ post.image | relative_url }}">
+        </a>
+      </div>
+      {% endif %}
+    <a href="{{ post.url | relative_url }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
+
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}
+    </a>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+          <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
+        {% endif %}
+      </div>
+    </div>
+
+   </article>
+  {% endfor %}
+</div>
