@@ -22,7 +22,7 @@ description: A multi-disciplinary creative agency based in Phoenix, Arizona.
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: ""
+    - Beautiful Jekyll: "/"
     - Learn markdown: "http://www.markdowntutorial.com/"
   Author's home: "http://deanattali.com"
 
@@ -37,9 +37,9 @@ navbar-children-col: "#F5F5F5"
 page-img: "/img/cord-purp.png"
 link-col: "#008AFF"
 hover-col: "#a28400"
-#footer-col: "#F5F5F5"
+#footer-col: "#ffffff00"
 footer-text-col: "#777777"
-footer-link-col: "#404040"
+footer-link-col: "#008AFF"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
@@ -53,27 +53,20 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Jake Rusnak
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: false
   email: "jake@corduroy-hat.com"
   github: jaggre
   twitter: jaggre
 
-#  reddit: yourname
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
+  instagram: jaggre
 #  youtube: user/deanat78
-#  spotify: yourname
-#  telephone: +14159998888
+  spotify: jaggre
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname

@@ -9,7 +9,7 @@ layout: null
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
-  color: #404040;
+  color: ##fff5cb;
   position: relative;
   background-color: {{ site.page-col }};
   {% if site.page-img %}
@@ -24,7 +24,7 @@ p {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Abril Fatface', cursive;
   font-weight: 800;
-  text-outline:6px #212121;
+  outline:6px #212121;
   text-shadow: 2px 2px #212121;
 }
 a {
@@ -109,8 +109,10 @@ img {
 
 .navbar-custom {
   background-color: {{ site.navbar-col }};
-  border-bottom: 1px solid #EAEAEA;
+  border-bottom: 0px solid #FFFFFF00;
   font-family: 'Abril Fatface', cursive;
+  text-outline:6px #212121;
+  text-shadow: 1px 1px #212121;
   {% if site.navbar-img %}
   background-image: url({{ site.navbar-img | relative_url }});
   background-attachment: fixed;
@@ -118,7 +120,7 @@ img {
 }
 
 .navbar-custom .nav li a {
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 1px;
 }
 
@@ -263,9 +265,12 @@ img {
 
 footer {
   padding: 20px 0;
-  border-top: 1px #EAEAEA solid;
-  margin-top: 20px;
+  border-top: 1px #ffffff00 solid;
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 10px;
   font-size: 14px;
+  outline:  2px #212121;
+  text-shadow: 1px 1px #212121;
   background-color: {{ site.footer-col }};
   {% if site.footer-img %}
   background-image: url({{ site.footer-img | relative_url }});
@@ -292,12 +297,12 @@ footer .copyright {
 }
 footer .theme-by {
   text-align: center;
-  margin: 10px 0 0;
+  margin: 00px 0 0;
 }
 
 @media only screen and (min-width: 768px) {
   footer {
-    padding: 50px 0;
+    padding: 10px 0;
   }
   footer .footer-links {
     font-size: 18px;
@@ -362,7 +367,7 @@ footer .theme-by {
   width: 100%;
 }
 .post-image {
-  float: right;
+  float: none;
   height: 192px;
   width: 192px;
   margin-top: -35px;

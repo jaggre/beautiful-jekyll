@@ -8,7 +8,13 @@ use-site-title: true
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
-    <img src="{{ post.image | relative_url }}">
+    {% if post.image %}
+      <div class="post-image">
+        <a href="{{ post.url | relative_url }}">
+          <img src="{{ post.image | relative_url }}">
+        </a>
+      </div>
+      {% endif %}
     <a href="{{ post.url | relative_url }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
 
@@ -20,13 +26,7 @@ use-site-title: true
     </a>
 
     <div class="post-entry-container">
-      {% if post.image %}
-      <div class="post-image">
-        <a href="{{ post.url | relative_url }}">
-          <img src="{{ post.image | relative_url }}">
-        </a>
-      </div>
-      {% endif %}
+      
       <div class="post-entry">
         {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
