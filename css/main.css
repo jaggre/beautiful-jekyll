@@ -22,8 +22,10 @@ p {
   margin: 30px 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Abril Fatface', cursive;
   font-weight: 800;
+  text-outline:6px #212121;
+  text-shadow: 2px 2px #212121;
 }
 a {
   color: {{ site.link-col }};
@@ -108,7 +110,7 @@ img {
 .navbar-custom {
   background-color: {{ site.navbar-col }};
   border-bottom: 1px solid #EAEAEA;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Abril Fatface', cursive;
   {% if site.navbar-img %}
   background-image: url({{ site.navbar-img | relative_url }});
   background-attachment: fixed;
@@ -116,7 +118,6 @@ img {
 }
 
 .navbar-custom .nav li a {
-  text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
 }
@@ -141,7 +142,7 @@ img {
   transition: padding .5s ease-in-out;
 }
 .navbar-custom .navbar-brand-logo img {
-  height: 50px;
+  height: 20px;
   -webkit-transition: height .5s ease-in-out;
   -moz-transition: height .5s ease-in-out;
   transition: height .5s ease-in-out;
@@ -150,12 +151,12 @@ img {
   padding-top: 5px;
 }
 .navbar-custom.top-nav-short .navbar-brand-logo img {
-  height: 40px;
+  height: 20px;
 }
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    padding: 20px 0;
+    padding: 0px 0;
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -194,7 +195,7 @@ img {
 @media only screen and (min-width: 768px) {
   .navbar-custom .avatar-container {
     width: 100px;
-    margin-top: -50px;
+    margin-top: -30px;
   }
 
   .navbar-custom .avatar-container .avatar-img-border {
@@ -261,9 +262,9 @@ img {
 /* --- Footer --- */
 
 footer {
-  padding: 30px 0;
+  padding: 20px 0;
   border-top: 1px #EAEAEA solid;
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 14px;
   background-color: {{ site.footer-col }};
   {% if site.footer-img %}
