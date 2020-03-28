@@ -6,7 +6,7 @@ layout: null
 /* --- General --- */
 
 
-.mainBG body {
+.mainBG {
   background-image: url('img/cord-grn.png');
 }
 
