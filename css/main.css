@@ -2,14 +2,15 @@
 layout: null
 ---
 
-@import url("pygment_highlights.css");
 
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Open Sans', 'Arial', serif;
   font-size: 18px;
-  color: ##fff5cb;
+  font-weight: 400;
+  color: #fff5cb;
+  text-shadow: 1px 1px #212121;
   position: relative;
   background-color: {{ site.page-col }};
   {% if site.page-img %}
@@ -21,11 +22,16 @@ p {
   line-height: 1.5;
   margin: 30px 0;
 }
+
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover {
+  color: #a28400;
+}
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Abril Fatface', cursive;
   font-weight: 800;
   outline:6px #212121;
   text-shadow: 2px 2px #212121;
+  color: #fff5cb;
 }
 a {
   color: {{ site.link-col }};
@@ -383,6 +389,7 @@ footer .theme-by {
 }
 .post-preview .post-read-more {
   font-weight: 800;
+  color: #fff5cb;
 }
 
 @media only screen and (min-width: 768px) {

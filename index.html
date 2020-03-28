@@ -5,6 +5,55 @@ subtitle: A multidisciplinary creative agency based in Phoenix, Arizona
 use-site-title: true
 ---
 
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm"> 
+        <article class="post-preview">
+        
+          <div class="post-image">
+            <a href="/sample/">
+              <img src="img/hello_world.jpeg">
+            </a>
+          </div>
+          
+        <a href="/sample/">
+        <h2 class="post-title">Custom Design</h2>
+        </a>
+    
+    
+       </article>
+       </div>
+       <div class="col-sm"> 
+        <article class="post-preview">
+        
+          <div class="post-image">
+            <a href="/test/">
+              <img src="img/hello_world.jpeg">
+            </a>
+          </div>
+          
+        <a href="/sample/">
+        <h2 class="post-title">Web Design</h2>
+        </a>
+    
+    
+       </article>
+       </div>
+       
+      <div class="col-sm">col-sm</div>
+    </div>
+  
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-8">col-8</div>
+    <div class="col-4">col-4</div>
+  </div>
+</div>
+
+
+
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
@@ -39,18 +88,3 @@ use-site-title: true
    </article>
   {% endfor %}
 </div>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | relative_url }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}

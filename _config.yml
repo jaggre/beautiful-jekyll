@@ -21,9 +21,7 @@ description: A multi-disciplinary creative agency based in Phoenix, Arizona.
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+  Sample: "sample"
   Author's home: "http://deanattali.com"
 
 
@@ -32,14 +30,14 @@ navbar-links:
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#ffffff00" 
-navbar-text-col: "#404040"
+navbar-text-col: "#fff5cb"
 navbar-children-col: "#F5F5F5"
 page-img: "/img/cord-purp.png"
-link-col: "#008AFF"
+link-col: "#fff5cb"
 hover-col: "#a28400"
-#footer-col: "#ffffff00"
-footer-text-col: "#777777"
-footer-link-col: "#008AFF"
+footer-col: "#ffffff00"
+footer-text-col: "#fff5cb"
+footer-link-col: "#fff5cb"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
