@@ -6,10 +6,10 @@ layout: null
 /* --- General --- */
 
 
-/* .mainBG {
+ .bgMain {
   position: relative;
-  background-image: url('img/cord-grn.png');
-} */
+  background-image: {{ site.bgMain }};
+} 
 
 body {
   font-family: 'Open Sans', 'Arial', serif;
@@ -18,7 +18,7 @@ body {
   color: #fff5cb;
   text-shadow: 1px 1px #212121;
   position: relative;
-  background-image: url('img/cord-purp.png');
+  background-image: {{ site.bgAlt }} ;
   
 }
 p {
