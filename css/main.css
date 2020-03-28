@@ -6,7 +6,7 @@ layout: null
 /* --- General --- */
 
 
- .bgMain {
+ .bgMain body {
   position: relative;
   background-image: {{ site.bgMain }};
 } 
