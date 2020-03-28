@@ -7,6 +7,7 @@ layout: null
 
 
 .mainBG {
+  position: relative;
   background-image: url('img/cord-grn.png');
 }
 
