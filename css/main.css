@@ -18,8 +18,11 @@ body {
   color: #fff5cb;
   text-shadow: 1px 1px #212121;
   position: relative;
-  background-image: {{ site.bgAlt }} ;
-  
+  background-color: {{ site.page-col }};
+  {% if site.bgMain %}
+  background-image: url({{ site.bgMain | relative_url }});
+  background-attachment: fixed;
+  {% endif %}
 }
 p {
   line-height: 1.5;
