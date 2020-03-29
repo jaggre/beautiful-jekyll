@@ -53,6 +53,9 @@ pageBgMain: "/img/cord-purp.png"
 pageBgAlt: "/img/cord-grn.png"
 pageBgContact: "/img/cord-khaki.png"
 
+navbar-img: "/img/cord-purp.png"
+
+
 # navbar-img: "/img/bgimage.png"
 # footer-img: "/img/bgimage.png"
 # page-img: "/img/bgimage.png"

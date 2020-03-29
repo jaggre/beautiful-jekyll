@@ -174,7 +174,7 @@ img {
 
 .navbar-custom {
   background-color: {{ site.navbar-col }};
-  border-bottom: 0px solid #FFFFFF00;
+  border-bottom: 1px solid #FFFFFF00;
   font-family: 'Abril Fatface', cursive;
   text-outline:6px #212121;
   text-shadow: 1px 1px #212121;
@@ -183,6 +183,27 @@ img {
   background-attachment: fixed;
   {% endif %}
 }
+
+.navbar-custom .about {
+  font-weight:600;
+  position: relative;
+  background-color: {{ site.page-col }};
+  {% if site.pageBgAlt %}
+  background-image: url({{ site.pageBgAlt | relative_url }});
+  background-attachment: fixed;
+  {% endif %}
+} 
+
+.navbar-custom .contact {
+  font-weight:600;
+  position: relative;
+  background-color: {{ site.page-col }};
+  {% if site.pageBgContact %}
+  background-image: url({{ site.pageBgContact | relative_url }});
+  background-attachment: fixed;
+  {% endif %}
+} 
+
 
 .navbar-custom .nav li a {
   font-size: 14px;
