@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Welcome"
-tags: Welcome
+title: "Contact Us"
+tags: contact
 image: /img/hello_world.jpeg
 
 ---
 
-## Welcome
+## Contact Us
 
 We had tried to build an all-in-one site as a home for the Thanos Collective on the internet. Now, we've seen the light and have created a site that fits our original purpose. 
 
