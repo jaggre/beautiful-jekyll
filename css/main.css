@@ -8,8 +8,16 @@ layout: null
 
  .bgMain body {
   position: relative;
-  background: {{ site.pageBgAlt }};
+  background-color: {{ site.page-col }};
+  {% if site.pageBgAlt %}
+  background-image: url({{ site.pageBgAlt | relative_url }});
+  background-attachment: fixed;
+  {% endif %}
 } 
+
+.frontContainer {
+  margin-bottom: 50px;
+}
 
 body {
   font-family: 'Open Sans', 'Arial', serif;
@@ -114,7 +122,7 @@ img {
 
 .linked-section {
   padding-top: 60px;
-  margin-top: -25px;
+  margin-top: 20px;
 }
 
 /* --- Navbar --- */
@@ -279,7 +287,7 @@ footer {
   padding: 20px 0;
   border-top: 1px #ffffff00 solid;
   font-family: 'Abril Fatface', cursive;
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 14px;
   outline:  2px #212121;
   text-shadow: 1px 1px #212121;
@@ -382,7 +390,7 @@ footer .theme-by {
   float: none;
   height: 192px;
   width: 192px;
-  margin-top: -35px;
+  margin-top: 8rem;
   filter: grayscale(90%);
 }
 .post-image:hover {
