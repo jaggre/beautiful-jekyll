@@ -8,10 +8,32 @@ image: /img/hello_world.jpeg
 
 ## Contact Us
 
-We had tried to build an all-in-one site as a home for the Thanos Collective on the internet. Now, we've seen the light and have created a site that fits our original purpose. 
+<div class="contact-form">
+      <form netlify action="thank-you">
+        <fieldset>
+          <section>
+            <label for="name">Name
+              <input autofocus type="text" name="name" id="name">
+            </label>
+          </section>
 
-We can easily update and add links here, plus readings. We can leave bigcartel to be bigcartel.
+          <section>
+            <label for="email">Email
+              <input required type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+            </label>
+          </section>
 
+          <section>
+            <label for="message">Message
+              <textarea required name="message" id="message"></textarea>
+            </label>
+          </section>
 
-pee pee
-test test
+          <section>
+            <div data-netlify-recaptcha></div>
+          </section>
+
+          <input class="button-secondary" type="submit" value="Send Message">
+        </fieldset>
+      </form>
+    </div>
