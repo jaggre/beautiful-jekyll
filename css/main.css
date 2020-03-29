@@ -8,7 +8,7 @@ layout: null
 
  .bgMain body {
   position: relative;
-  background-image: {{ site.bgMain }};
+  background: {{ site.pageBgAlt }};
 } 
 
 body {
@@ -19,8 +19,8 @@ body {
   text-shadow: 1px 1px #212121;
   position: relative;
   background-color: {{ site.page-col }};
-  {% if site.bgMain %}
-  background-image: url({{ site.bgMain | relative_url }});
+  {% if site.pageBgMain %}
+  background-image: url({{ site.pageBgMain | relative_url }});
   background-attachment: fixed;
   {% endif %}
 }
