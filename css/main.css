@@ -127,6 +127,12 @@ img {
 
 /* --- Navbar --- */
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+  border-radius: 0px;
+}
+
+
 .navbar-custom .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
   background-color: #ffffff00;
   color:#ffffff00;
