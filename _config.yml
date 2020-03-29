@@ -43,12 +43,14 @@ hover-col: "#a28400"
 footer-col: "#ffffff00"
 footer-text-col: "#fff5cb"
 footer-link-col: "#fff5cb"
+contact-footer-col: "#00696A"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
 pageBgMain: "/img/cord-purp.png"
 pageBgAlt: "/img/cord-grn.png"
+pageBgContact: "/img/cord-khaki.png"
 
 # navbar-img: "/img/bgimage.png"
 # footer-img: "/img/bgimage.png"
