@@ -21,11 +21,11 @@ description: A multi-disciplinary creative agency based in Phoenix, Arizona.
 # List of links in the navigation bar
 navbar-links:
   About : "about"
-  # Work:
-  #   - Graphic Design: "graphic"
-  #   - Interface Design: "interface"
-  #   - Branding & Identity: "brand"
-  #   - Printing & Media: "print"
+  Work:
+    - Graphic Design: "graphic"
+    - Interface Design: "interface"
+    - Branding & Identity: "brand"
+    - Printing & Media: "print"
 
   Contact: "contact"
 
