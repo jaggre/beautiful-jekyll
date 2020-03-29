@@ -43,6 +43,7 @@ hover-col: "#a28400"
 footer-col: "#ffffff00"
 footer-text-col: "#fff5cb"
 footer-link-col: "#fff5cb"
+
 contact-footer-col: "#00696A"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
