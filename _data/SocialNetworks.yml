@@ -37,8 +37,3 @@ spotify:
   name: "Spotify"
   urlTemplate: "https://open.spotify.com/user/{value}"
   icon: "fab fa-spotify"
-
-twitch:
-  name: "Twitch"
-  urlTemplate: "https://www.twitch.tv/{value}"
-  icon: "fab fa-twitch"

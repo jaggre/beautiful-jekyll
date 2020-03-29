@@ -20,9 +20,14 @@ description: A multi-disciplinary creative agency based in Phoenix, Arizona.
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Sample: "sample"
-  Memes: "https://thanos.surf"
+  About : "about"
+  Work:
+    - Graphic Design: "graphic"
+    - Interface Design: "interface"
+    - Branding & Identity: "brand"
+    - Printing & Media: "print"
+
+  Contact: "contact"
 
 
 # --- Background colour/image options --- #
