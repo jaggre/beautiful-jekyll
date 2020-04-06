@@ -21,11 +21,11 @@ description: A multi-disciplinary creative agency based in Phoenix, Arizona.
 # List of links in the navigation bar
 navbar-links:
   About : "about"
-  Work:
-    - Graphic Design: "graphic"
-    - Interface Design: "interface"
-    - Branding & Identity: "brand"
-    - Printing & Media: "print"
+  # Work:
+  #   - Graphic Design: "graphic"
+  #   - Interface Design: "interface"
+  #   - Branding & Identity: "brand"
+  #   - Printing & Media: "print"
 
   Contact: "contact"
 
@@ -50,7 +50,7 @@ contact-footer-col: "#00696A"
 # instead of colour
 
 pageBgMain: "/img/cord-purp.png"
-pageBgAlt: "/img/cord-grn.png"
+pageBgAlt: "/img/cord-blu.png"
 pageBgContact: "/img/cord-khaki.png"
 
 navbar-img: "/img/cord-purp.png"

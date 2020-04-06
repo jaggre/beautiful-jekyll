@@ -2,7 +2,6 @@
 layout: page3
 title: "Contact Us"
 tags: contact
-image: /img/hello_world.jpeg
 
 ---
 

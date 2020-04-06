@@ -459,10 +459,13 @@ footer .theme-by {
 }
 .post-image {
   float: none;
-  height: 192px;
-  width: 192px;
+  height: 200px;
+  width: 200px;
   margin-top: 8rem;
   filter: grayscale(90%);
+  font-size: 	7em;
+  color: #fff5cb;
+  text-shadow: 2px 2px #212121;
 }
 .post-image:hover {
   filter: grayscale(0%);
