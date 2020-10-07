@@ -44,7 +44,11 @@ body {
   background-attachment: fixed;
   {% endif %}
 }
+body .background-image {
 
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
 body.about {
   font-weight:600;
   position: relative;
@@ -122,21 +126,21 @@ hr.small {
 }
 
 ::-moz-selection {
-  color: white;
+  color: fff5cb;
   text-shadow: none;
   background-color: {{ site.hover-col }};
 }
 ::selection {
-  color: white;
+  color: fff5cb;
   text-shadow: none;
   background-color: {{ site.hover-col }};
 }
 img::selection {
-  color: white;
+  color: fff5cb;
   background: transparent;
 }
 img::-moz-selection {
-  color: white;
+  color: fff5cb;
   background: transparent;
 }
 
@@ -206,13 +210,14 @@ img {
 
 
 .navbar-custom .nav li a {
-  font-size: 14px;
+  font-size: 24px;
   letter-spacing: 1px;
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
+  font-size: 28px;
   color: {{ site.navbar-text-col }};
 }
 
@@ -422,7 +427,7 @@ footer .theme-by {
 
 .post-preview a {
   text-decoration: none;
-  color: #404040;
+  color: #fff5cb;
 }
 
 .post-preview a:focus,
@@ -883,4 +888,10 @@ pre {
   color: #808080;
   font-style: italic;
   font-size: 16px;
+}
+
+
+/* icons */
+i .fa {
+  color: #fff5cb
 }

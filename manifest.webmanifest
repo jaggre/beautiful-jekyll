@@ -1,0 +1,22 @@
+{
+  "short_name": "Corduroy Hat",
+  "name": "Corduroy Hat - Marketing and Design Agency",
+  "description": "A small agency focused on creating timeless design by a traditional approach.",
+  "icons": [
+    {
+      "src": "/_includes/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/_includes/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "http://corduroyhat.com",
+  "background_color": "#000000",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#000000"
+}
