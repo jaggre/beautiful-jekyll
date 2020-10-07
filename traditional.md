@@ -1,13 +1,13 @@
 ---
 layout: page2
 title: Traditional Media
-subtitle: Vancouver 
+subtitle: Vancouver Apparel & Book Design Services
 ---
 
 <!-- add a carousel here -->
 
+With the words DIY practically etched into our ethos, we strive to provide well-rounded apparel and printed media designs.
 
-### Traditional Media
 
 # Apparel Design
 

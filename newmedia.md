@@ -7,7 +7,6 @@ subtitle: Vancouver New Media Creative Services
 <!-- add a carousel here -->
 
 
-### New Media
 
 With over 20 years combined experience in new media fields, Corduroy Hat brings cutting edge techniques rooted in traditional practices.
 

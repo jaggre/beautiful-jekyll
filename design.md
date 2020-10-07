@@ -7,7 +7,8 @@ subtitle: Vancouver Graphic Design Services
 <!-- add a carousel here -->
 
 
-### Graphic Design
+Graphic by nature, designer by trade, Corduroy Hat can help with any logo or graphic needs. We're pretty much experts.
+
 
 # Brand Visioning
 Our team is experienced in brand visioning, and will work with you to determine the characteristics of your brand, startup, album, brewery, that should shine through in its' design. Drawing from trainings in critical media theory, graphic design, colour theory, and other disciplines, we will help you best represent yourself.
